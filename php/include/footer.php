@@ -1,11 +1,11 @@
 	<!-- Begin Footer -->
 	<div id="footer">
-			<a href="index.html">home</a> |
-			<a href="about.html">about</a> |
-			<a href="movie.html">my_movies</a> |
-			<a href="friends.html">friends</a>
-			<a href="blog.html">blog</a> |
-			<a href="contact.html">contact</a>
+			<a href="index.php">home</a> |
+			<a href="about.php">about</a> |
+			<a href="movie.php">my_movies</a> |
+			<a href="friends.php">friends</a>
+			<a href="blog.php">blog</a> |
+			<a href="contact.php">contact</a>
 		<hr />
 			<small>
 				 &copy; 2019, All Rights Reserved
