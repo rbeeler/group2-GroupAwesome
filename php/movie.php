@@ -3,9 +3,10 @@
 		<div id="wrapper">
 				<!-- Begin Left Column -->
 				<div id="leftcolumn">
-
-						 Left Column
-
+					 <!-- Begin database -->
+	            	 <div class = "db-container">
+	                	<?php include 'include/db-connection.php'; ?>                    
+	            	 </div><!-- End database -->
 				</div>
 				<!-- End Left Column -->
 
