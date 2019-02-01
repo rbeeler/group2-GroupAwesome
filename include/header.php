@@ -3,6 +3,8 @@
 <head>
 	<title>Group 2 - Movie</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<!--Disables the google translate funciton popup-->
+	<meta name="google" content="notranslate">
 </head>
 
 <body>
