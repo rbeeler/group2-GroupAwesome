@@ -5,7 +5,7 @@
 				<div id="leftcolumn">
 					 <!-- Begin database -->
 	            	 <div class = "db-container">
-	                	<?php include 'include/db-connection.php'; ?>                    
+	                	<?php include 'include/db-connection.php'; ?>         
 	            	 </div><!-- End database -->
 				</div>
 				<!-- End Left Column -->
@@ -13,7 +13,7 @@
 				<!-- Begin Right Column -->
 				<div id="rightcolumn">
 
-							 Right Column
+					  	<?php include 'sidebar.php'; ?>
 
 				</div>
 				<!-- End Right Column -->

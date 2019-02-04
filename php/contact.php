@@ -3,10 +3,9 @@
 		<div id="wrapper">
 				<!-- Begin Left Column -->
 				<div id="leftcolumn">
-
 				
 				<h2>Contact Us!</h2>
-				<p> Your feedback is important to us!</p><br />
+				<p>Your feedback is important to us!</p><br />
 				<!-- validating from data -->
 						<?php
 
@@ -24,7 +23,7 @@
 
 						    echo
 						    '
-						    <form action="contact.php" method="post">
+						    <form action="contact.php" method="POST">
 						    	<p>
 							    	<label for="Name">Name:</label>
 							        <input type="text" 
@@ -49,7 +48,7 @@
 							        	   required="required"
 							        	   placeholder="Comments"></textarea>
 						        </p><br />
-						        <input type="submit" value="Submit!" />
+						        <input type="submit" value="Submit" />
 						    </form>
 						    ';
 						}
@@ -61,7 +60,7 @@
 				<!-- Begin Right Column -->
 				<div id="rightcolumn">
 
-							 Right Column
+				   		<?php include 'sidebar.php'; ?>
 
 				</div>
 				<!-- End Right Column -->
