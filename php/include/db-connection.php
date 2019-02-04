@@ -1,21 +1,7 @@
-<?php
-  $servername = "localhost:8889";
-  $username = "root";
-  $password = "root";
-  $dbname = "movie";
-
-  // Create connection
-  $conn = new mysqli($servername, $username, $password, $dbname);
-
-  // Check connection
-  if ($conn->connect_error) {
-      die("Connection failed: " . $conn->connect_error);
-  }
-
-//echo "Connected sucessfully";
+<?php include 'include/config.php';
 
   //Make a SELECT query
-  $query_movie = "SELECT * FROM movie.movies";
+  $query_movie = "SELECT * FROM data.film limit 18";
 
   $result = $conn->query($query_movie);
 

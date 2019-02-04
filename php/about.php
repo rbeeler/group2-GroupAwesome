@@ -4,7 +4,7 @@
 				<!-- Begin Left Column -->
 				<div id="leftcolumn">
 
-						 Left Column
+						Left Column
 
 				</div>
 				<!-- End Left Column -->
@@ -12,7 +12,7 @@
 				<!-- Begin Right Column -->
 				<div id="rightcolumn">
 
-							 Right Column
+				   		<?php include 'sidebar.php'; ?>
 
 				</div>
 				<!-- End Right Column -->
