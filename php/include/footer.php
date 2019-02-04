@@ -8,7 +8,7 @@
 			<a href="contact.php">contact</a>
 		<hr />
 			<small>
-				 &copy; 2019, All Rights Reserved
+				 &copy <?=date('Y');?>, All Rights Reserved
 			</small>
 	</div><!-- End Footer -->
 </div>
