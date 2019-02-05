@@ -1,5 +1,5 @@
 <?php include 'include/header.php';
-      include 'include/config.php';
+      include 'include/credentials.php';
 
   if($_REQUEST['submit']){
     $search = $_POST['search'];
