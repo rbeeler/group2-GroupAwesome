@@ -1,4 +1,4 @@
-<?php include 'include/config.php';
+<?php include 'include/credentials.php';
 
       $sql = "SELECT title, rating, genre, imageReference
               FROM MovieInfo";

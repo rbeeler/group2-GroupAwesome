@@ -1,4 +1,4 @@
-<?php include 'include/config.php';
+<?php include 'include/credentials.php';
 
   //Make a SELECT query
   $query_movie = "SELECT * FROM data.film limit 18";
