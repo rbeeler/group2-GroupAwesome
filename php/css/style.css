@@ -1,16 +1,19 @@
 * { padding: 0; margin: 0; }
 
-body {
+body,
+button,
+input,
+textarea {
  font-family: century gothic, Helvetica, sans-serif;
- font-size: 13px;
+ font-size: 14px;
 }
 h1{
 	margin-left: 25px;
 	line-height:50px;
-	color:#EAFAF1  ;
+	color: #EAFAF1;
 }
 #wrapper {
- margin: 40px auto;
+ margin: 30px auto;
  width: 1000px;
 }
 #header {
@@ -20,7 +23,6 @@ h1{
  height: 50px;
  margin: 0px auto 5px auto;
  background: #148F77 ;
-
 }
 #leftcolumn {
  float: left;
@@ -28,7 +30,7 @@ h1{
  margin: 0px 0px 0px 0px;
  padding: 10px;
  height: 350px;
- width: 678px;
+ width: 750px;
 }
 #rightcolumn {
  float: right;
@@ -43,6 +45,7 @@ h1{
 #boxes {
   margin: 0;
   padding: 0;
+  margin: 15px auto;
 }
   .leftbox{
    float: left;
@@ -65,14 +68,18 @@ h1{
 }
 
 #footer {
-  width: 922px;
+  width: 993px;
   clear: both;
   border: 1px solid #ccc;
-  background: #504A4B;
+  background: #148F77;
   margin: 0px 0px 0px 0px;
   padding: 3px;
   text-align: center;
 }
+#footer a {
+  color: white;
+  text-decoration: none;
+} 
 
 /* Main-nav */
 #main-nav ul {
