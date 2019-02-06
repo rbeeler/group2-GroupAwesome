@@ -9,19 +9,25 @@
 
 <body>
      <!-- Begin Header -->
-         <div id="header">
-		         <h1>i_love_movies</h1>
+         <header>
+             <form action="formhandler.php" method="get">
+                     <input type="text" placeholder="Search Movies..." name="search">
+             </form>
+		      <h1>i_love_movies</h1>
+             
 			 <!-- Begin Navigation -->
-    		     <div id="main-nav">
+    		     <nav>
     		        <ul>
-    		            <li><a href="index.php"		>home		</a></li>
-    		            <li><a href="about.php"		>about	</a></li>
-    		            <li><a href="movie.php"		>movies	</a></li>
+    		            <li><a href="index.php">home		</a></li>
+    		            <li><a href="about.php">about	</a></li>
+    		            <li><a href="movie.php">movies	</a></li>
     					      <li><a href="friends.php"	>friends</a></li>
     		            <li><a href="blog.php"		>blog		</a></li>
-    		            <li><a href="contact.php"	>contact</a></li>
+    		            <li><a href="contact.php">contact</a></li>
     		        </ul>
-    		      </div>
+    		     </nav>
     			  <!-- End Navigation -->
-    		 </div>
+    		 </header>
     		 <!-- End Header -->
+</body>
+</html>
