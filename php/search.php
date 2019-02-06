@@ -2,6 +2,7 @@
       include 'include/credentials.php';
 
   if($_REQUEST['submit']){
+
     $search = $_POST['search'];
 
   if(empty($search)){
@@ -10,7 +11,7 @@
 
   }else{
 
-    $find = '<h2>No match found!</h2>';
+    $found = '<h2>No match was found!</h2>';
     $query_search = "SELECT * FROM data.film WHERE `title` LIKE '%".$search."%'";
     $result = $conn->query($query_search); 
   
@@ -35,11 +36,9 @@
         echo "</tr>";
         }   
       }else{
-         echo'<h1>Search Result:</h1>';
-         print ($find);
+        echo'<h1>Search Result:</h1>';
+        print ($found);
       }
-         mysql_free_result($result);
-         mysql_close($conn);
     }
   }
 ?>
