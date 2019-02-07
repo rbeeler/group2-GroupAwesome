@@ -28,7 +28,7 @@
 		            </p>
 		            <p>
 		            	<label>Star Rating:</label>  
-		            	<input type="text" name="star_rating" value=""required placeholder="Decimal Formate Only"><br><br>
+		            	<input type="text" name="star_rating" value=""required placeholder="Decimal Format Only"><br><br>
 		            </p>
 		            <p> 
 		            	<label>Movie Language:</label> 
