@@ -3,16 +3,17 @@
 		<div id="wrapper">
 				<!-- Begin Left Column -->
 				<div id="leftcolumn">
-
-						 Left Column
-
+					 <!-- Begin database -->
+	            	 <div class = "db-container">
+	                	<?php include 'include/db-friends.php'; ?>   
+	            	 </div><!-- End database -->
 				</div>
 				<!-- End Left Column -->
 
 				<!-- Begin Right Column -->
 				<div id="rightcolumn">
 
-							 Right Column
+					  	<?php include 'sidebar.php'; ?>
 
 				</div>
 				<!-- End Right Column -->

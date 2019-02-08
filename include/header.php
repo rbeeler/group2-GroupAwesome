@@ -3,8 +3,6 @@
 <head>
 	<title>Group 2 - Movie</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<!--Disables the google translate funciton popup-->
-	<meta name="google" content="notranslate">
 </head>
 
 <body>
@@ -14,12 +12,12 @@
 			 <!-- Begin Navigation -->
     		     <div id="main-nav">
     		        <ul>
-    		            <li><a href="index.php"		>home		</a></li>
-    		            <li><a href="about.php"		>about	</a></li>
-    		            <li><a href="movie.php"		>movies	</a></li>
-    					      <li><a href="friends.php"	>friends</a></li>
-    		            <li><a href="blog.php"		>blog		</a></li>
-    		            <li><a href="contact.php"	>contact</a></li>
+    		            <li><a href="index.php">home</a></li>
+    		            <li><a href="about.php">about</a></li>
+    		            <li><a href="movie.php">movies</a></li>
+    					      <li><a href="friends.php">friends</a></li>
+    		            <li><a href="blog.php">blog</a></li>
+    		            <li><a href="contact.php">contact</a></li>
     		        </ul>
     		      </div>
     			  <!-- End Navigation -->
