@@ -26,9 +26,15 @@
 			if ($result->num_rows > 0) {
 				// output data of each row
 				while($row = $result->fetch_assoc()) {
-					echo "title: " . $row["title"]. " - rating: " . $row["rating"]. " - genre " . $row["genre"].
-					//$image =
+					echo "<h3>title: " . $row["title"]. " - rating: " . $row["rating"]. " - genre: " . $row["genre"]."</h3>".
 					"<br>";
+					$path = "movie_img/".$row["imageReference"];
+					?>
+					<img src = "<?php echo $path ?>" alt = "<?php echo $path ?>" width="150px">
+
+					<?php
+					echo "<br>";
+
 				}
 			} else {
 				echo "0 results";
