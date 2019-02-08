@@ -1,0 +1,31 @@
+DROP DATABASE IF EXISTS users;
+CREATE DATABASE IF NOT EXISTS users;
+USE users;
+
+CREATE TABLE users (	
+    userName		VARCHAR(50)			NOT NULL,
+    Email			VARCHAR(50),		
+    FavoriteMovie	VARCHAR(50),
+    FavoriteGenre	VARCHAR(50)    
+);
+
+-- ------------------------------------------------------------------------------------------------------------------------------------------
+--                                              Insert Data                                                                                --
+-- ---------------------------------------------------------------------------------------------------------------------
+
+INSERT INTO users
+VALUES
+(1,'Harry','harry@hogwarts.com','Raiders of the Lost Arc','Action'),
+(2,'Hermione','hermione@hogwarts.com','The Breakfast Club','Documentary'),
+(3,'Ron','ron@hogwarts.com','Goonies','Comedy'),
+(4,'Luna','luna@hogwarts.com','Alice In Wonderland','Fantasy'),
+(5,'Ginny','ginny@hogwarts.com','Die Hard','Action'),
+(6,'Neville','neville@hogwarts.com','Home Alone','Foreign'),
+(7,'Draco','draco@hogwarts.com','THe Grudge','Horror'),
+(8,'Pansy','pansy@hogwarts.com','Cinderella','Romance'),
+(9,'Dean','dean@hogwarts.com','Kill Bill', 'Thriller'),
+(10,'Seamus','seamus@hogwarts.com','Chariots of Fire','Sports'),
+(11,'Fred','fred@hogwarts.com','Planes, Trains, and Automobiles','Comedy'),
+(13,'George','george@hogwarts.com','Anchorman','Comedy'),
+(14,'Crabbe','crabbe@hogwarts.com','Halloween','Horror'),
+(15,'Goyle','goyle@hogwarts.com','Blair Witch Project','Horror');
