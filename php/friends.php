@@ -1,12 +1,28 @@
 <?php include 'include/header.php'; ?>
 		<!-- Begin Wrapper -->
 		<div id="wrapper">
-				<!-- Begin Left Column -->
 				<div id="leftcolumn">
-					 <!-- Begin database -->
-	            	 <div class = "db-container">
-	                	<?php include 'include/db-friends.php'; ?>   
-	            	 </div><!-- End database -->
+
+				<h1>Add User Name</h1>
+				<form action="add_friends.php" method="POST">
+					<p>
+				   		<label>User ID:</label>
+		            	<input type="text" name="user_id" value="" required><br><br>
+		        	</p> 
+					<p>
+				   		<label>First Name:</label>
+		            	<input type="text" name="first_name" value="" required><br><br>
+		        	</p> 
+					<p>
+				   		<label>Last Name:</label>
+		            	<input type="text" name="last_name" value="" required><br><br>
+		        	</p> 
+		        	<p>
+		        		<label>Email:</label> 
+		            	<input type="text" name="email" value="" required><br><br>
+		            </p>
+		            	<input type="submit" value="Submit"><br><br>
+				</form>
 				</div>
 				<!-- End Left Column -->
 

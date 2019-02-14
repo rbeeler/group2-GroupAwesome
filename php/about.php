@@ -5,7 +5,7 @@
 				<div id="leftcolumn">
 
 				<h1>Add movie</h1>
-				<form action="add.php" method="POST">
+				<form action="add_movie.php" method="POST">
 					<p>
 				   		<label>Movie ID:</label>
 		            	<input type="text" name="movie_id" value="" required placeholder="Numbers Only"><br><br>
